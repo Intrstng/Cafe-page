@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    width:940px;
+    margin: 20px auto 20px auto;
+    border:2px solid #000000;
+    background-color: #dfd7d7;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: left;
+    background-color: rgb(141, 140, 139);
+}
+
+header {
+    background: linear-gradient(to right, rgb(148, 145, 141), rgb(201, 201, 223));
+height: 100px;
+}
+
+header, section, footer,aside, nav, article, figure, figcaption {
+    display:block;
+}
+
+
+header p:nth-of-type(1) {
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:#fff;
+    margin:0px;
+    padding: 20px 0px 0px 100px;
+}
+
+
+header p:nth-of-type(2) {
+    font-size: 80%;
+    font-style: italic;
+    color: #fff;
+    margin:0px;
+    padding: 0px 0px 0px 140px;
+    text-transform: uppercase;
+}
+
+
+.menu {
+    background: linear-gradient( rgb(110, 110, 103), rgb(201, 201, 223));
+
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    color:#fff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+nav li a:hover {
+    color: rgb(126, 7, 7);
+    text-decoration: underline;
+}
+
+nav, footer 
+{   clear:both;
+    height:30px;
+}
+
+nav ul {
+margin:0px;
+padding: 5px 0px 5px 50px;
+
+}
+
+
+
+aside {
+width:230px;
+float:left;
+padding: 20px 0px 0px 20px;
+}
+
+
+
+.asideMenu li {
+       list-style-type: none;
+    line-height: 180%;
+}
+.asideMenu a {
+    color: red;
+    text-decoration:none;
+}
+.asideMenu a:hover {
+    color: rgb(0, 33, 221);
+    text-decoration:underline;
+    background-color: rgb(240, 166, 54);
+}
+
+
+.asideMenu h2 {
+    color:red;
+}
+aside section h2 {
+    padding:0px 0px 0px 20px;
+    color:red;
+    margin-top: 25px;
+}
+
+section.courses {
+float:left;
+width: 659px;
+border-right: 1 px solid #000000;
+margin-top: 15px;
+}
+
+
+article {
+clear:both;
+overflow:hidden;
+width:100%;
+}
+
+article h3 {
+    padding: 30px 0px 0px 0px;
+}
+
+hgroup {
+    margin-top:40px;
+}
+
+
+.menu {
+    margin: 20px 0px 20px 0px;
+}
+
+
+/*#content {
+    width:700px;
+    float:left;
+}*/
+
+figure {
+float:left;
+width:290px;
+height:265px;
+background-color: bisque;
+text-align: left;
+padding: 5px;
+margin:20px;
+border: 1px solid #000000;
+}
+
+figure img {
+    width: 278px;
+    height: 228px;
+}
+
+figcaption {
+  text-indent: 10px;
+  font-size: 95%;
+}
+
+
+
+article h3 {
+   margin:0px;
+}
+
+article h4 {
+    color:red;
+    margin: 10px 0px 10px 0px;
+}
+
+article p {
+    font-size: 95%;
+}
+
+
+.contactDetails {
+        width:230px;
+        float:left;
+   
+    
+}
+
+.contactDetails p {
+    font-size:90%;
+    padding-left: 20px;
+}
+
+
+footer {
+    background-color: rgb(148, 145, 141);
+}
+
+
+.cont {
+    padding:130px 0px 0px 0px;
+    text-align: left;
+}
